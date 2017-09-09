@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+
+	<script src="js/main.js"></script>
+	<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+	<h2>Hola killo k ase...</h2>
+</body>
+</html>
+
+{% include 'partials/include.html' %}
+
+{% import 'macros/macro.html' as macros %}
+
+{{macros.soyMacro('Hola soy un macros')}}
