@@ -1,7 +1,7 @@
 {
-  "name": "es6-scaffold",
+  "name": "bulb",
   "version": "0.1.0",
-  "description": "Proyecto base con estructuras y tareas automatizadas en gulp para trabajar en javascript ES6",
+  "description": "Personal javascript project to learn how to use socket.IO and Express Nodejs Server",
   "main": "server.js",
   "scripts": {
     "test": "mocha"

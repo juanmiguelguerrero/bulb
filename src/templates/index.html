@@ -4,16 +4,19 @@
 	<meta charset="UTF-8">
 	<title>Home</title>
 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
 	<script src="js/main.js"></script>
 	<link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-	<h2>Hola killo k ase...</h2>
+
+	<div class="bulb">
+		<div class="bulb__screw">
+			<img src="img/screw.png" alt="Screw">
+		</div>
+		<object data="img/bulb.svg" type="image/svg+xml" id="bulb" width="100%"></object>
+	</div>
+
 </body>
 </html>
-
-{% include 'partials/include.html' %}
-
-{% import 'macros/macro.html' as macros %}
-
-{{macros.soyMacro('Hola soy un macros')}}
