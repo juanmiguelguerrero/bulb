@@ -1,4 +1,11 @@
-import hello from './modules/hello.js'
+// import hello from './modules/hello.js'
 
 
-hello('Hello!!!')
+
+function toogleBulb() {
+	console.log('Toogle Bulb');
+}
+
+
+var button = document.getElementById('switch')
+button.addEventListener('click', toogleBulb)
