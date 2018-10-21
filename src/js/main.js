@@ -14,5 +14,5 @@ button.addEventListener('click', toogleBulb)
 function toogleBulb() {
 	console.log('Toogle Bulb')
 	// bulb.glass.remove();
-	bulb.glass.setAttribute('stop-color', '#ccc000')
+	bulb.glass.setAttribute('stop-color', 'red')
 }
